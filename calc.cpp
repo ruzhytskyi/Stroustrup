@@ -121,7 +121,7 @@ int main() {
 		getToken();
 		if (curToken == PRINT) continue;
 		if (curToken == END) break;
-		std::cout<<expr(false);	
+		std::cout<<expr(false)<<std::endl;	
 	}
 	return 0;
 }
